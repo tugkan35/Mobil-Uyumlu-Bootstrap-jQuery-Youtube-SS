@@ -1,0 +1,116 @@
+/* # Genral Settings */
+::selection 
+{
+    background-color: #ff3838;
+    color : #fff;
+}
+
+::-moz-selection
+{
+    background-color: #ff3838;
+    color : #fff;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.btn:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+#btn1, #btn2 {
+	margin: 4px 2px;
+}
+
+.section-box {
+	padding-top: 75px;
+}
+
+h1 {
+	color: #ff3838;
+}
+
+.section-top hr {
+	display: inline-block;
+	height: 3px;
+	width: 150px;
+	background-color: #ff3838;
+	border: none;
+	margin-bottom: 35px;
+}
+
+#contact label {
+	border-left: 4px solid #ff3838;
+	padding-left: 5px;
+}
+
+input, textarea {
+	resize: none;
+	border-color: #ff3838 !important;
+	color: #ff3838 !important;
+	font-size: 20px !important;
+}
+
+input:focus, textarea:focus{
+	box-shadow: none !important;
+}
+
+#contactbuttons {
+	display: flex;
+	justify-content: right;
+	margin-right: 10px;
+}
+
+/* Footer */
+
+#main-footer {
+	color: #fff;
+	background-color: #000;
+	border-top: #ff3838 5px solid;
+	margin-top: 120px;
+}
+
+#main-footer p {
+	padding-top: 20px;
+}
+
+.copyright-link {
+	font-size:20px;
+}
+
+.copyright-link a{
+	color: #fff  !important;
+	transition: color 0.5s ease;
+	font-size: 20px;
+}
+
+.copyright-link a:hover {
+	color: #ff3838 !important;
+}
+
+.nav-link {
+	color: #fff;
+	transition : color .5S ease;
+}
+
+.nav-link:hover {
+	color: #ff3838;
+}
+
+/* Privacy-Policy */
+
+.privacy-policy-link {
+	color: black !important;
+	transition: color 0.5s ease;
+}
+
+.privacy-policy-link:hover {
+	color: #ff3838 !important;
+	text-decoration: none;
+}
+
+.ollength {
+	list-style-type: lower-alpha;
+}
