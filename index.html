@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Youtube Foto Çek</title>
+	<!-- Required meta tags -->
+	<!--<meta charset="utf-8">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ff3838">
+    <meta name="google-site-verification" content=""/>
+    <meta name="description" content="YouTube küçük resimlerinizi daha kaliteli bir þekilde ekran görüntüsü(ss) alýn.">
+    <meta name="keywords" content="youtube, video, video shot, video ss">
+    <link rel="canonical" href="index.html">
+    <meta content="Tugkan Zenger" name="author">
+    <meta name="image" content=""/>
+    <!-- <base href="index.html"> -->
+    <!-- This code does not work on localhost but works on a web server. -->
+	
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Logo -->
+    <link rel="shortcut icon" href="img/check.png">
+    <link rel="apple-touch-icon" href="img/check.png">
+	
+</head>
+<body>
+
+<section id="borderhead" class="section-box">
+    <div class="container">
+	    <div class="row">
+		    <div class="col-md-6 offset-md-3 text-center">
+			    <div class="section-top">
+				    <h1>YouTubeVideoShot</h1>
+					<hr>
+				</div>  
+			</div>
+		</div>	
+	</div>
+</section>
+  
+<center>
+<div class="col-md-10">
+	<div class="jumbotron py-5">
+		<h2 class="pb-3" style="font-size: 60px;">YouTube Video'dan ekran görüntüleri</h2>
+	<div class="input-group mb-1">
+    	<input type="text" class="form-control" id="youtubeLink" placeholder="https://www.youtube.com/watch?v="/>
+	    <div class="input-group-append">
+        <button id="cek" class="btn btn-success btn-lg" type="button"><img src="img/downloading.png" width="50" height="50"></button>
+        </div>
+    </div>
+	<div class="col-md-6 alert alert-warning alert-dismissible fade show mt-3" role="alert">
+        Linkinizin gösterilen þekilde olduðuna dikkat ediniz :
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+		
+	<div class="col-md-6 alert alert-success mt-3" role="alert">
+    	<em>
+    	<strong>Örnek :</strong> https://www.youtube.com/watch?v=Fr0iy9TIzLY
+    	</em>
+	</div>
+	</div>
+</div>
+	<div id="foto"></div>
+</center>
+
+<!-- FOOTER SECTION -->
+	
+	<footer id="main-footer" class="py-2">
+	<ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Ýletiþim</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="privacypolicy.html">Gizlilik Politikasý</a>
+        </li>
+    </ul>
+    <div class="copyright-link text-center p-3">
+        © <span id="year"></span>
+        <a class="" href="index.html">www.youtubevideoshot.wuaze.com</a>
+    </div>
+	</footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.js"></script>
+	<script src="js/jquery.charLimiter.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/ss.js"></script>
+    <script src="js/copyright.js"></script>	
+</body>
+</html>
+
+<?php include 'log.php';?>
